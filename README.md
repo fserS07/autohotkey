@@ -28,6 +28,8 @@ This repo includes hacks, remaps, workspace focus fixes, and tiny utilities to g
 | `Ctrl + Alt + <` | Move to previous workspace |
 | `Ctrl + Alt + >` | Move to next workspace |
 | `Win` | Reveal taskbar (only while held) |
+| `Ctrl + Shift + [` | Enable touchpad |
+| `Ctrl + Shift + ]` | Disable touchpad |
 
 > Remaps inspired by GNOME habits.
 
@@ -41,6 +43,7 @@ This repo includes hacks, remaps, workspace focus fixes, and tiny utilities to g
 | `remapCaps.ahk` | Caps Lock remaps |
 | `taskbar_always_hide.ahk` | Makes taskbar appear only when Win is pressed |
 | `workspace_remap.ahk` | Caps Lock remaps |
+| `toogletouchpad.ahk` | Toogle the touchpad |
 
 
 ---
@@ -52,6 +55,8 @@ Supports v1 or v2. Scripts currently written for v1.
 
 ### 2. Clone the repo
 
-```bash
+### bash
 git clone https://github.com/fserS07/autohotkey.git 
 
+### Download DevManView and install to use the toogletouchpad
+https://www.nirsoft.net/utils/device_manager_view.html
